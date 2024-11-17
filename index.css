@@ -1,0 +1,118 @@
+@import url(root.css);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 0 2vh 0;
+}
+
+
+.logo {
+    margin-left: 4vh;
+    color: var(--white);
+}
+
+.txt-link {
+    margin-right: 10vh;
+}
+
+.txt-link ul {
+    display: flex;
+    gap: 2vh;
+    display: none;
+}
+
+.txt-link a {
+    color: var(--white);
+}
+
+.carousel {
+    background-image: url(./assets/image/carousel.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 16rem;
+    position: relative;
+    background-position: center;
+}
+
+.carousel-bd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.7) 70%, rgba(0, 0, 0, 0.9) 100%);
+    background-size: 100% 100%;
+    background-position: 0% 50%;
+    opacity: 80%;
+    filter : blur(2px); 
+}
+
+.about-wrap {
+    background-image: url(./assets/image/bg-about.jpg);
+    width: 100%;
+    height: 16rem;
+    background-size: cover;
+    /* display: flex; */
+}
+
+.about-txt {
+    width: 100%;
+    height: auto;
+    /* flex-direction: row; */
+}
+
+.about-btn {
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.about-btn a {
+    background-color: var(--white);
+    border: 0.2rem solid var(--primary);
+    color: var(--primary);
+    padding: 1vh 4vh;
+    text-decoration: none;
+    border-radius: 2rem;
+    font-size: 12px;
+}
+
+.about-btn a:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.services-wrap {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+
+.service-card-wrap {
+    width: 100%;
+    height: auto;
+    margin-top: 4vh;
+    background-color: blue;
+    display: flex;
+    gap: 1vh;
+    justify-content: center;
+}
+
+.service-card {
+    width: 10rem;
+    height: 12rem;
+    background-color: blueviolet;
+}
