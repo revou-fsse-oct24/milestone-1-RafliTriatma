@@ -84,13 +84,134 @@
             font-size: 12px; padding: 2vh 4vh 0 4vh;">In etiam nibh volutpat est vel phasellus quis egestas ipsum. Suspendisse praesent 
                               neque quis convallis vitae. Cum vulputate sed odio et imperdiet mauris porta.</p>
             <div class="service-card-wrap">
-                <div class="service-card">hege</div>
-                <div class="service-card">hege</div>
+                
+                <div class="service-card">
+                    <img src="./assets/icon/icon-service.svg" alt="service-icon">
+                    <div class="service-card-txt">
+                        <h5 style="text-align: center; color: 
+                        var(--fontblack); font-weight: 300;">Cloud Solutions</h5>
+                    <p style="text-align: center; font-size: 10px;
+                    padding: 0 1vh 0 1vh; color: var(--fontgray);">Tincidunt malesuada elementum ut 
+                        suspendisse id. Odio eget eleifend 
+                        neque viverra sit nulla rutrum elit.</p>
+                    </div>
+                    <div class="service-card-btn" style="text-align: center;">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="./assets/icon/icon-service.svg" alt="service-icon">
+                    <div class="service-card-txt">
+                        <h5 style="text-align: center; color: 
+                        var(--fontblack); font-weight: 300;">Co - Location</h5>
+                    <p style="text-align: center; font-size: 10px;
+                    padding: 0 1vh 0 1vh; color: var(--fontgray);">Tincidunt malesuada elementum ut 
+                        suspendisse id. Odio eget eleifend 
+                        neque viverra sit nulla rutrum elit.</p>
+                    </div>
+                    <div class="service-card-btn" style="text-align: center;">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="careers-wrap">
+            <h3 style="text-align: center; padding-top: 4vh;
+            font-weight: 600; color: var(--primary);">Careers</h3>
+            <p style="text-align: center; color: var(--fontblack);
+            font-size: 12px; padding: 2vh 4vh 0 4vh;">
+            Find Your Dream Job With Your Interest Skills</p>
+
+            <div class="career-card-wrap">
+                
+                <div class="career-card">
+                    <div class="career-img">
+                        <img src="./assets/icon/icon-career1.svg" alt="icon">
+                    </div>
+                    <div class="career-txt">
+                        <h5 style="font-weight: 400;
+                        padding-left: 2vh; color: var(--fontblack);">Art Director</h5>
+                        <p style="font-size: 10px; 
+                        padding: 1vh 1vh 0 2vh; color: var(--fontgray);">Tristique est est diam cras nibh porta. 
+                            Enim euismod mauris aliquam praesent viverra eu. 
+                            Faucibus in malesuada imperdiet orci in.</p>
+                        <ul>
+                            <li style="list-style: none;"><img src="./assets/icon/fb-icon.svg" alt="fb"></li>
+                            <li style="list-style: none;"><img src="./assets/icon/twitter-icon.svg" alt="twitter"></li>
+                            <li style="list-style: none;"><img src="./assets/icon/linkedin-icon.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="career-card">
+                    <div class="career-img">
+                        <img src="./assets/icon/tech-icon.svg" alt="icon">
+                    </div>
+                    <div class="career-txt">
+                        <h5 style="font-weight: 400;
+                        padding-left: 2vh; color: var(--fontblack);">Art Director</h5>
+                        <p style="font-size: 10px; 
+                        padding: 1vh 1vh 0 2vh; color: var(--fontgray);">Tristique est est diam cras nibh porta. 
+                            Enim euismod mauris aliquam praesent viverra eu. 
+                            Faucibus in malesuada imperdiet orci in.</p>
+                        <ul>
+                            <li style="list-style: none;"><img src="./assets/icon/fb-icon.svg" alt="fb"></li>
+                            <li style="list-style: none;"><img src="./assets/icon/twitter-icon.svg" alt="twitter"></li>
+                            <li style="list-style: none;"><img src="./assets/icon/linkedin-icon.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact-wrap">
+            <h3 style="text-align: center; padding-top: 4vh;
+            font-weight: 600; color: var(--primary);">Contact Us</h3>
+            <div class="contact-relative">
+                <div class="input-box">
+                    <input type="text" placeholder="Input Your Name">
+                    <h5 style="font-weight: 300; position: 
+                    absolute; bottom: 1vh; left: 6vh;
+                    padding: 0 1vh 0 1vh; background-color: var(--white);
+                    color: var(--fontblack);">Name
+                    <span style="color: red;">*</span>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="contact-relative">
+                <div class="input-box">
+                    <input type="text" placeholder="Input Your Email">
+                    <h5 style="font-weight: 300; position: 
+                    absolute; bottom: 1vh; left: 6vh;
+                    padding: 0 1vh 0 1vh; background-color: var(--white);
+                    color: var(--fontblack);">Email
+                    <span style="color: red;">*</span>
+                    </h5>
+                </div>
             </div>
         </section>
 
     </main>
 
-    
+
+    <script>
+        var navbar = document.querySelector('nav')
+
+        window.onscroll = function() {
+
+        // pageYOffset or scrollY
+        if (window.pageYOffset > 0) {
+            navbar.classList.add('scrolled')
+        } else {
+            navbar.classList.remove('scrolled')
+        }
+        }
+    </script>
+
 </body>
 </html>
