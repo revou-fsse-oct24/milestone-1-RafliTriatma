@@ -29,12 +29,28 @@
                 </ul>
             </div>
 
-            <div class="iconsidebar">
+            <div id="iconsidebar">
                 <i class="fa-solid fa-bars" 
                 style="color: var(--white); margin-right: 4vh; margin-top: 2vh; "></i>
             </div>
 
         </nav>
+
+        <!-- <div id="overlay"></div>
+
+        <div id="sidebar" class="sidebar-wrap">
+                <button id="close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                
+                <ul>
+                    <li style="list-style: none;"><a href="#">Home</a></li>
+                    <li style="list-style: none;"><a href="#">About Us</a></li>
+                    <li style="list-style: none;"><a href="#">Services</a></li>
+                    <li style="list-style: none;"><a href="#">Contact Us</a></li>
+                </ul>
+        </div> -->
+
     </header>
 
     <main>
@@ -258,6 +274,19 @@
 
 
     <script>
+        
+        // const sidebar = document.getElementById("sidebar");
+        // const iconsidebar = document.getElementById("iconsidebar");
+        // const closeBtn = document.getElementById("close-btn");
+
+        // iconsidebar.addEventListener("click", () => {
+        //     sidebar.classList.remove("-translate-x-full");
+        // });
+
+        // closeBtn.addEventListener("click", () => {
+        //     sidebar.classList.add("-translate-x-full");
+        // });
+
         var navbar = document.querySelector('nav')
 
         window.onscroll = function() {
